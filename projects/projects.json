@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Analytics",
+    "desc": "Dashboard for analyse the Robot data and their functionality",
+    "image": "analytics",
+    "category": "ml",
+    "links": {
+      "view": "https://analytics.skilancersolar.co.in/",
+      "code": "#"
+    }
+  },
+  {
+    "name": "E_Garage using ML, Flask and MySQL",
+    "desc": "E-Garage is an innovative project designed to provide a comprehensive solution for car owners and enthusiasts, offering three core functionalities into a single platform",
+    "image": "e_garage",
+    "category": "ml",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/E_Garage"
+    }
+  },
+  {
+    "name": "Portfolio",
+    "desc": "Personal Portfolio Website",
+    "image": "portfolio",
+    "category": "web",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Hotel Management with Covid Protocals",
+    "desc": "Here the user gets the rooms according to their choice but they must have to give RT-PCR report. Admin can delete, modify the details of customer at any time.",
+    "image": "hotel_c",
+    "category": "c",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Hotel-Management-with-Covid-Protocals"
+    }
+  },
+  {
+    "name": "HealthCare project",
+    "desc": "This is a web based application using flask in which prediction is occurs on machine learning models",
+    "image": "health",
+    "category": "ml",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Health-Care-project-using-Flask-Machine-Learning"
+    }
+  },
+  {
+    "name": "Shipment Management",
+    "desc": "This project aims to calculate the appropriate amount of weight that a ship can carry according to its capacity and can calulate the minimum path possible",
+    "image": "shipment",
+    "category": "c",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Shipment-Management"
+    }
+  },
+  {
+    "name": "Process Scheduling Simulator",
+    "desc": "The main objective for creating the project is that to help the student to get their solution or to check their solution by passing the values",
+    "image": "operating",
+    "category": "c",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Process-Scheduling-Simulator-Operating-System"
+    }
+  },
+  {
+    "name": "Face Mask Detection",
+    "desc": "The objective of the project is to develop a model which can be used to detect face masks in a group of people to prevent Covid-19.",
+    "image": "face",
+    "category": "ml",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/face-mask-detection"
+    }
+  },
+  {
+    "name": "Motion Detection System",
+    "desc": "It detect even slight motion in the frame and highlight it with green rectangle frame and the time the object entered and the time",
+    "image": "motion",
+    "category": "python",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Motion-Detection-System"
+    }
+  },
+  {
+    "name": "Resume Screening",
+    "desc": "Project introduces an automated resume screening system that utilizes Natural Language Processing (NLP) techniques",
+    "image": "resume",
+    "category": "ml",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Resume-screening"
+    }
+  },
+  {
+    "name": "Bank Management",
+    "desc": "To develop a banking system that is clean, user-friendly and multi-functional",
+    "image": "bank",
+    "category": "c",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Bank-Management"
+    }
+  },
+  {
+    "name": "LED Controller using Voice",
+    "desc": "Controlling LED lights using voice recognition.",
+    "image": "led",
+    "category": "c",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/LED-CONTROLLER-USING-VOICE-RECOGNITION"
+    }
+  },
+  {
+    "name": "Restaurant Managemnt COA",
+    "desc": "We are going to use the 8086 Assembly system to make a program to manage the billing system of a Restaurant",
+    "image": "coa",
+    "category": "*",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Restaurant-Management-System-COA-"
+    }
+  },
+  {
+    "name": "Simon Game",
+    "desc": "Simson is a mind game in which you have to remember the pattern and copy it. The difficulty of the game by increasing levels.",
+    "image": "simon",
+    "category": "web",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Simsons-Game"
+    }
+  },
+  {
+    "name": "Snake Game",
+    "desc": "Developed a classic Snake game using Python programming language",
+    "image": "snake",
+    "category": "python",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Snake-Game"
+    }
+  },
+  {
+    "name": "In Need",
+    "desc": "An In Need website is an online platform that allows businesses to sell their products (Food Items) or Services which is near to expiry over the internet",
+    "image": "inneed",
+    "category": "python",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/IN-NEED"
+    }
+  },
+  {
+    "name": "Duty Munshi",
+    "desc": "This project basically schedule duty to the police officers.",
+    "image": "duty",
+    "category": "python",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Duty-Munshi"
+    }
+  },
+  {
+    "name": "Symptom based Clinical Decision System",
+    "desc": "This is a machine learning based project in which we give symptoms as input and then get disease as output. Using machine learning model we get a prediction.",
+    "image": "symptom",
+    "category": "ml",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Symptom-based-Clinical-Decision-Support-System"
+    }
+  },
+  {
+    "name": "Railware",
+    "desc": "A simple server used to create, manage and delete users anf book, cancel or enquiry tickets ",
+    "image": "railware",
+    "category": "web",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Railware"
+    }
+  },
+  {
+    "name": "Hotel Management using Java",
+    "desc": "This project aims to Manage and book rooms built on NetBeans - Java and Mysql for data storage.",
+    "image": "hotel_java",
+    "category": "java",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/Hotel-Management-Java"
+    }
+  },
+  {
+    "name": "Projects on NetBeans Platform",
+    "desc": "Basic multiple projects on NetBean Platform - Java",
+    "image": "netbeans",
+    "category": "java",
+    "links": {
+      "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
+      "code": "https://github.com/kartikgupta1206/NetBean-Projects-Java"
+    }
+  }
+]

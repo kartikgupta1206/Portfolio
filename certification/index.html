@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link id="favicon" rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png" />
+  <title>Certificate | Portfolio Kartik Gupta</title>
+</head>
+
+<header>
+  <a href="/" class="logo">Kartik Gupta</a>
+
+  <div id="menu" class="fas fa-bars"></div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="/#home">Home</a></li>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#skills">Skills</a></li>
+      <li><a href="/#education">Education</a></li>
+      <li><a href="/#work">Projects</a></li>
+      <li><a class="active" href="/#certificate">Certificates</a></li>
+      <li><a href="/#experience">Experience</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="certificate-header">
+  <h2 class="certificate-title">
+    <img src="https://img.icons8.com/?size=30&id=6PEs2EypZuRA&format=png&color=000000" alt="" />
+    &nbsp; My Achievements & Certifications
+  </h2>
+  <p class="certificate-quote">
+    Knowledge is power, but certification is proof of it
+  </p>
+</div>
+<section class="certificate" id="certificate">
+  <section class="certificate-gallery" id="gallery">
+
+  </section>
+
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage" />
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const modal = document.getElementById("modal");
+      modal.style.display = "none";
+    });
+
+    const certificates = [
+      {
+        src: "/assets/images/certificate/ai_ml.png",
+        title: "AI / ML",
+      },
+      {
+        src: "/assets/images/certificate/aws_tcs.png",
+        title: "AWS Cloud Concept",
+      },
+      {
+        src: "/assets/images/certificate/canva.png",
+        title: "Canva",
+      },
+      {
+        src: "/assets/images/certificate/internship.png",
+        title: "ML Intern",
+      },
+      {
+        src: "/assets/images/certificate/craft.png",
+        title: "Craftwork - JIIT",
+      },
+      {
+        src: "/assets/images/certificate/data_analytics.png",
+        title: "Data Analytics",
+      },
+      {
+        src: "/assets/images/certificate/mysql.png",
+        title: "MySQL",
+      },
+      {
+        src: "/assets/images/certificate/dl.png",
+        title: "Deep Learning",
+      },
+      {
+        src: "/assets/images/certificate/industry4.png",
+        title: "Industry 4.0",
+      },
+      {
+        src: "/assets/images/certificate/html.png",
+        title: "HTML Workshop",
+      },
+      {
+        src: "/assets/images/certificate/javascript.png",
+        title: "Javascript Projects",
+      },
+
+      {
+        src: "/assets/images/certificate/python_flask.png",
+        title: "Python with Flask",
+      },
+      {
+        src: "/assets/images/certificate/python_guvi.png",
+        title: "Python",
+      },
+      {
+        src: "/assets/images/certificate/robotics.png",
+        title: "Robotics",
+      },
+      {
+        src: "/assets/images/certificate/rangoli.jpg",
+        title: "Rangoli - SurajKund",
+      },
+      {
+        src: "/assets/images/certificate/python.png",
+        title: "Python",
+      },
+      {
+        src: "/assets/images/certificate/NCO.jpg",
+        title: "National Cyber Olympiad",
+      },
+      {
+        src: "/assets/images/certificate/microsoft_AI.png",
+        title: "AI Skills Challenge",
+      },
+      {
+        src: "/assets/images/certificate/financial.jpg",
+        title: "Financial Sector Quiz",
+      },
+      {
+        src: "/assets/images/certificate/essay.jpg",
+        title: "Essay Writing Competition",
+      },
+      {
+        src: "/assets/images/certificate/data_v_tcs.png",
+        title: "Data Virtualisation",
+      },
+      {
+        src: "/assets/images/certificate/attention.png",
+        title: "Attention to Details",
+      },
+      {
+        src: "/assets/images/certificate/maths.png",
+        title: "Aryabhatta Maths Competion",
+      },
+      {
+        src: "/assets/images/certificate/gcr.jpg",
+        title: "Google Cloud Ready Labs",
+      },
+    ];
+    const gallery = document.getElementById("gallery");
+    certificates.forEach((cert) => {
+      let certDiv = document.createElement("div");
+      certDiv.classList.add("certificate");
+      certDiv.innerHTML = `
+        <div class="cert-container" onclick="openModal('${cert.src}', '${cert.title}')">
+            <img src="${cert.src}" alt="${cert.title}">
+            <div class="cert-title">${cert.title}</div>
+        </div>`;
+      gallery.appendChild(certDiv);
+    });
+
+    function openModal(imageSrc, title) {
+      const modal = document.getElementById("modal");
+      const modalImage = document.getElementById("modalImage");
+
+      modal.style.display = "flex";
+      modalImage.src = imageSrc;
+      modalImage.alt = title;
+    }
+
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+
+    document.getElementById("modal").addEventListener("click", function (event) {
+      if (event.target === this) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    });
+
+  </script>
+
+  <div class="morebtn">
+    <a href="/#certificate" class="btn">
+      <i class="fas fa-arrow-left"></i>
+      <span>Back to Home</span>
+    </a>
+  </div>
+</section>
+
+<a href="#certificate" class="fas fa-angle-up" id="scroll-top"></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+  integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+  integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
