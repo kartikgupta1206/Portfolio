@@ -2,7 +2,7 @@
   {
     "name": "Analytics",
     "desc": "Dashboard for analyse the Robot data and their functionality",
-    "image": "assets/images/projects/analytics.png",
+    "image": "analytics",
     "category": "ml",
     "links": {
       "view": "https://analytics.skilancersolar.co.in/",
@@ -12,7 +12,7 @@
   {
     "name": "E_Garage using ML, Flask and MySQL",
     "desc": "E-Garage is an innovative project designed to provide a comprehensive solution for car owners and enthusiasts, offering three core functionalities into a single platform",
-    "image": "/assets/images/projects/e_garage.png",
+    "image": "e_garage",
     "category": "ml",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -22,7 +22,7 @@
   {
     "name": "Portfolio",
     "desc": "Personal Portfolio Website",
-    "image": "./assets/images/projects/portfolio.png",
+    "image": "portfolio",
     "category": "web",
     "links": {
       "view": "#",
@@ -32,7 +32,7 @@
   {
     "name": "Hotel Management with Covid Protocals",
     "desc": "Here the user gets the rooms according to their choice but they must have to give RT-PCR report. Admin can delete, modify the details of customer at any time.",
-    "image": "../assets/images/projects/hotel_c.png",
+    "image": "hotel_c",
     "category": "c",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -42,7 +42,7 @@
   {
     "name": "HealthCare project",
     "desc": "This is a web based application using flask in which prediction is occurs on machine learning models",
-    "image": "/assets/images/projects/health.png",
+    "image": "health",
     "category": "ml",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -52,7 +52,7 @@
   {
     "name": "Shipment Management",
     "desc": "This project aims to calculate the appropriate amount of weight that a ship can carry according to its capacity and can calulate the minimum path possible",
-    "image": "/assets/images/projects/shipment.png",
+    "image": "shipment",
     "category": "c",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -62,7 +62,7 @@
   {
     "name": "Process Scheduling Simulator",
     "desc": "The main objective for creating the project is that to help the student to get their solution or to check their solution by passing the values",
-    "image": "/assets/images/projects/operating.png",
+    "image": "operating",
     "category": "c",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -72,7 +72,7 @@
   {
     "name": "Face Mask Detection",
     "desc": "The objective of the project is to develop a model which can be used to detect face masks in a group of people to prevent Covid-19.",
-    "image": "/assets/images/projects/face.png",
+    "image": "face",
     "category": "ml",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -82,7 +82,7 @@
   {
     "name": "Motion Detection System",
     "desc": "It detect even slight motion in the frame and highlight it with green rectangle frame and the time the object entered and the time",
-    "image": "/assets/images/projects/motion.png",
+    "image": "motion",
     "category": "python",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -92,7 +92,7 @@
   {
     "name": "Resume Screening",
     "desc": "Project introduces an automated resume screening system that utilizes Natural Language Processing (NLP) techniques",
-    "image": "/assets/images/projects/resume.png",
+    "image": "resume",
     "category": "ml",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -102,7 +102,7 @@
   {
     "name": "Bank Management",
     "desc": "To develop a banking system that is clean, user-friendly and multi-functional",
-    "image": "/assets/images/projects/bank.png",
+    "image": "bank",
     "category": "c",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -112,7 +112,7 @@
   {
     "name": "LED Controller using Voice",
     "desc": "Controlling LED lights using voice recognition.",
-    "image": "/assets/images/projects/led.png",
+    "image": "led",
     "category": "c",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -122,7 +122,7 @@
   {
     "name": "Restaurant Managemnt COA",
     "desc": "We are going to use the 8086 Assembly system to make a program to manage the billing system of a Restaurant",
-    "image": "/assets/images/projects/coa.png",
+    "image": "coa",
     "category": "*",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -132,7 +132,7 @@
   {
     "name": "Simon Game",
     "desc": "Simson is a mind game in which you have to remember the pattern and copy it. The difficulty of the game by increasing levels.",
-    "image": "/assets/images/projects/simon.png",
+    "image": "simon",
     "category": "web",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -142,7 +142,7 @@
   {
     "name": "Snake Game",
     "desc": "Developed a classic Snake game using Python programming language",
-    "image": "/assets/images/projects/snake.png",
+    "image": "snake",
     "category": "python",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -152,7 +152,7 @@
   {
     "name": "In Need",
     "desc": "An In Need website is an online platform that allows businesses to sell their products (Food Items) or Services which is near to expiry over the internet",
-    "image": "/assets/images/projects/inneed.png",
+    "image": "inneed",
     "category": "python",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -162,7 +162,7 @@
   {
     "name": "Duty Munshi",
     "desc": "This project basically schedule duty to the police officers.",
-    "image": "/assets/images/projects/duty.png",
+    "image": "duty",
     "category": "python",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -172,7 +172,7 @@
   {
     "name": "Symptom based Clinical Decision System",
     "desc": "This is a machine learning based project in which we give symptoms as input and then get disease as output. Using machine learning model we get a prediction.",
-    "image": "/assets/images/projects/symptom.png",
+    "image": "symptom",
     "category": "ml",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -182,7 +182,7 @@
   {
     "name": "Railware",
     "desc": "A simple server used to create, manage and delete users anf book, cancel or enquiry tickets ",
-    "image": "/assets/images/projects/railware.png",
+    "image": "railware",
     "category": "web",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -192,7 +192,7 @@
   {
     "name": "Hotel Management using Java",
     "desc": "This project aims to Manage and book rooms built on NetBeans - Java and Mysql for data storage.",
-    "image": "/assets/images/projects/hotel_java.png",
+    "image": "hotel_java",
     "category": "java",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
@@ -202,7 +202,7 @@
   {
     "name": "Projects on NetBeans Platform",
     "desc": "Basic multiple projects on NetBean Platform - Java",
-    "image": "/assets/images/projects/netbeans.png",
+    "image": "netbeans",
     "category": "java",
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a/details/projects/",
