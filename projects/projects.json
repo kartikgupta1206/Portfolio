@@ -1,5 +1,15 @@
 [
   {
+    "name": "AI-Powered PDF Chatbot with Flask Interface",
+    "desc": "Developed an intelligent chatbot capable of reading and answering queries from PDF",
+    "image": "chatbot",
+    "category": "ml",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/kartikgupta1206/Electricity-bill-management-system"
+    }
+  },
+  {
     "name": "Analytics",
     "desc": "Dashboard for analyse the Robot data and their functionality",
     "image": "analytics",
@@ -17,6 +27,16 @@
     "links": {
       "view": "https://www.linkedin.com/in/kartik-gupta-1b85ab24a",
       "code": "https://github.com/kartikgupta1206/E_Garage"
+    }
+  },
+  {
+    "name": "Electricity Bill Management System",
+    "desc": "Console based python application",
+    "image": "electricity",
+    "category": "python",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/kartikgupta1206/Electricity-bill-management-system"
     }
   },
   {
