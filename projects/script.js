@@ -34,28 +34,44 @@ function getProjects() {
 }
 
 function showProjects(projects) {
-  let projectsContainer = document.querySelector(".work .box-container");
+  const projectsContainer = document.querySelector(".work .box-container");
   let projectsHTML = "";
+
   projects.forEach((project) => {
+    const viewLink = String(project.links.view || "").trim();
+    const codeLink = String(project.links.code || "").trim();
+
+    let viewButton = "";
+    let codeButton = "";
+
+    if (viewLink && viewLink !== "#") {
+      viewButton = `<a href="${viewLink}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>`;
+    }
+
+    if (codeLink && codeLink !== "#") {
+      codeButton = `<a href="${codeLink}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>`;
+    }
+
     projectsHTML += `
-        <div class="grid-item ${project.category}">
+      <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="../assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          <img draggable="false" src="../assets/images/projects/${project.image}.png" alt="project" />
+          <div class="content">
+            <div class="tag">
+              <h3>${project.name}</h3>
+            </div>
+            <div class="desc">
+              <p>${project.desc}</p>
+              <div class="btns">
+                ${viewButton}
+                ${codeButton}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    </div>`;
+      </div>`;
   });
+
   projectsContainer.innerHTML = projectsHTML;
 
   var $grid = $(".box-container").isotope({
@@ -69,10 +85,11 @@ function showProjects(projects) {
   $(".button-group").on("click", "button", function () {
     $(".button-group").find(".is-checked").removeClass("is-checked");
     $(this).addClass("is-checked");
-    var filterValue = $(this).attr("data-filter");
+    const filterValue = $(this).attr("data-filter");
     $grid.isotope({ filter: filterValue });
   });
 }
+
 
 getProjects().then((data) => {
   showProjects(data);
